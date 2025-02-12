@@ -1,0 +1,774 @@
+body {
+  top: 0px;
+  left: 0px;
+  font-family: 'Manrope', sans-serif;
+  background: #F6F7F8;
+  width: 1600px;
+  height: 1195px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: #FFFFFF;
+  border-radius: 70px;
+  position: absolute;
+  width: 1564px;
+  top: 18px;
+  left: 18px;
+  height: 72px;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.navbar-logo img {
+  height: 48px;
+  width: 211px;
+  left: 50px;
+  top: 30px;
+}
+
+.navbar-menu {
+  width: 663px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 121px;
+  margin-left: 40px;
+}
+
+.navbar-menu li {
+  margin: 0 15px;
+}
+
+.navbar-menu li a {
+  display: flex;
+  align-items: center;
+  color: #072635;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14pt;
+  line-height: 19px;
+}
+
+.navbar-menu li a:hover, .navbar-menu a.selected {
+  background-color: #01F0D0;
+  border-radius: 41px;
+}
+
+.icon {
+  height: 17px;
+  margin-right: 10px;
+}
+
+.doctor-info {
+  display: flex;
+  align-items: center;
+  margin-left: 110px;
+  width: 240px;
+}
+
+.doc-photo {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border-left: 2px solid #F6F7F8;
+}
+
+.doctor-details {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 8px;
+}
+
+.doctor-name {
+  font-size: 14pt;
+  line-height: 19px;
+  color: #072635;
+  font-weight: bold;
+}
+
+.doctor-title {
+  font-size: 14pt;
+  line-height: 19px;
+  color: #072635;
+  font-weight: normal;
+}
+
+.settings-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 12px;
+ 
+}
+
+.more-icon {
+  height: 24px;
+  width: 24px;
+ 
+}
+
+
+.xtra {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-left: 1px solid #F6F7F8;
+}
+
+
+.patient-list {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  background-color: #FFFFFF;
+  padding: 0px;
+  cursor: pointer;
+  width: 353px;
+  height: 80px;
+  left: 38px;
+  opacity: 1;
+
+
+}
+
+.patient-list:hover {
+  background-color: #D8FCF7;
+  height: 100%;
+}
+
+.patient-photo {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.patient-list ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-list ol li {
+  margin-bottom: 0px;
+}
+
+.patient-list p {
+  margin: 0;
+}
+
+.patient-name {
+  font-size: 14pt;
+  font-weight: bold;
+  line-height: 19px;
+  color: #072635;
+  margin-left: 12px;
+
+}
+
+.patient-details {
+  font-size: 14pt;
+  font-weight: normal;
+  line-height: 19px;
+  color: #707070;
+  margin-left: 12px;
+  margin-top: 4px;
+
+}
+
+.hrz {
+  position: absolute;
+  left: 327px;
+  height: 4px;
+  width: 18px;
+}
+
+.patients {
+  
+  left: 38px;
+  width: 100px;
+  height: 33px;
+  font: normal normal 800 24px/33px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
+  text-align: left;
+  opacity: 1;
+  margin-left: 20px;
+  margin-top: 28px;
+}
+
+.side-list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 122px;
+  left: 18px;
+  width: 367px;
+  height: 1054px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.ptn-list {
+  margin-top: 93px;
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 359px;
+  height: 961px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ptn-list::-webkit-scrollbar {
+  height: 941px;
+  width: 6px;
+  margin-left: 4px;
+  border-radius: 3px;
+ 
+  
+}
+
+.ptn-list::-webkit-scrollbar-track {
+  background: #E3E4E6;
+  
+}
+
+.ptn-list::-webkit-scrollbar-thumb {
+  
+  background: #072635;
+  border-radius: 3px;
+  height: 100px;
+
+}
+
+
+
+
+
+
+.side-list-top {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+   
+}
+
+.search-icon {
+  position: absolute;
+  left: 337px;
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.patient-card {
+  display: flex;
+  position: absolute;
+  top: 108px;
+  left: 1216px;
+  width: 367px;
+  height: 740px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  opacity: 1;
+  flex-direction: column;
+  text-align: left;
+
+}
+
+.patient-card h2 {
+
+  top: 364px;
+  left: 1317px;
+  width: 164px;
+  height: 33px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 0px;
+  color: #072635;
+  text-align: center;
+  opacity: 1;
+  margin-left: 101px;
+  margin-bottom: 32px;
+}
+
+.patient-card-photo {
+  top: 140px;
+  left: 1299px;
+  width: 200px;
+  height: 200px;
+  margin-left: 83px;
+  margin-right: 84px;
+  margin-top: 32px;
+}
+
+.card-icon {
+  left: 1263px;
+  width: 42px;
+  height: 42px;
+  margin-left: 20px;
+}
+
+.patient-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.detail-text {
+  display: flex;
+  flex-direction: column;
+  height: 42px;
+}
+
+.patient-card p {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #072635;
+  text-transform: capitalize;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+}
+
+.patient-card span {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #072635;
+  text-transform: capitalize;
+  text-align: left;
+  margin-top: 4px;
+  margin-left: 16px;
+}
+
+.patient-card button {
+  width: 220px;
+  height: 41px;
+  background: #01F0D0 0% 0% no-repeat padding-box;
+  border-radius: 41px;
+  margin-left: 73px;
+}
+
+.btn {
+  font-weight: bold;
+  font-style: normal;
+  color: #072635;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 11px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.midpart h2 {
+  top: 142px;
+  left: 437px;
+  width: 207px;
+  height: 33px;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: left;
+  opacity: 1;
+  color: #072635;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.midpart {
+  position: absolute;
+  top: 122px;
+  left: 417px;
+  width: 766px;
+  height: 673px;
+  background-color: #FFFFFF;
+  opacity: 1;
+  border-radius: 16px;
+
+}
+
+.cht {
+  top: 215px;
+  left: 437px;
+  width: 726px;
+  height: 298px;
+  border-radius: 12px;
+  background: #f4f0fe 0% 0% no-repeat padding-box;
+  margin-left: 20px;
+}
+
+.rate-icons {
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.respiratory-space {
+  top: 533px;
+  left: 437px;
+  width: 228px;
+  height: 242px;
+  border-radius: 12px;
+  background: #E0F3FA 0% 0% no-repeat padding-box;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.temperature-space {
+  top: 533px;
+  left: 686px;
+  width: 228px;
+  height: 242px;
+  border-radius: 12px;
+  background: #FFE6E9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-top: 20px;
+  margin-left: 21px;
+}
+
+.heart-space {
+  top: 533px;
+  left: 935px;
+  width: 228px;
+  height: 242px;
+  border-radius: 12px;
+  background: #FFE6F1 0% 0% no-repeat padding-box;
+  margin-top: 20px; 
+  opacity: 1;
+  margin-top: 20px;
+  margin-left: 21px;
+  margin-right: 20px; 
+}
+
+.rate-heading {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #072635;
+  text-align: left;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.value-heading {
+  margin-top: 0px;
+  margin-left: 16px;
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0px;
+  color: #072635;
+  text-align: left;
+  opacity: 1;
+}
+
+.icon-rate {
+  height: 96px;
+  width: 96px;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.level-heading {
+  margin-top: 17px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0px;
+  color: #072635;
+  text-align: left;
+  opacity: 1;
+}
+
+.lowerpart {
+  position: absolute;
+  top: 827px;
+  left: 417px;
+  width: 766px;
+  height: 349px;
+  border-radius: 16px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.lowerpart h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0px;
+  color: #072635;
+  text-align: left;
+  opacity: 1;
+}
+
+.lower-mid {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 726px;
+  height: 48px;
+  background: #F6F7F8 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 1;
+  flex-direction: row;
+}
+
+
+.lower-mid p {
+  font-weight: bold;
+  color: #072635;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+  opacity: 1;
+  letter-spacing: 0px;
+  margin-top: 15px;
+  margin-bottom: 14px;
+}
+
+.low-low {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  
+}
+
+
+.diagnostic-item {
+  display: flex;
+
+  left: 437px;
+  width: 723px;
+  height: 59px;
+}
+
+.diagnostic-name {
+  display: flex;
+  
+  padding-left: 16px;
+}
+
+.diagnostic-description {
+  display: flex;
+  flex-direction: column;
+  
+  left: 686px;
+}
+
+.diagnostic-status {
+ 
+  left: 1050px;
+}
+
+.table-container {
+  max-height: 198px;
+  width: 743px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-left: 1px;
+  box-sizing: border-box;
+
+}
+
+.table-container::-webkit-scrollbar{
+  width: 6px;
+  background: #E3E4E6 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  width: 6px;
+  border-radius: 3px;
+  background: #072635 0% 0% no-repeat padding-box;
+
+}
+
+.diagnostic-table {
+ 
+  width: calc(100% - 1px);
+  overflow: auto;
+  table-layout: fixed;
+  
+}
+
+.diagnostic-table tr {
+  height: 59px;
+}
+
+.diagnostic-table td {
+  border-bottom: 1px solid #F6F7F8;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #072635;
+  font-weight: normal;
+  text-align: left
+  
+}
+
+.diagnostic-table td.diagnostic-name {
+  width: 246px;
+  margin-left: 16px;
+  
+}
+
+.diagnostic-table td.diagnostic-description {
+  width: 387px;
+}
+
+.diagnostic-table td.diagnostic-status {
+  width: 100px;
+}
+
+.lab {
+  position: absolute;
+  top: 880px;
+  left: 1215px;
+  width: 367px;
+  height: 296px;
+  border-radius: 16px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.lab h2 {
+  color: #072635;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: 800;
+  text-align: left;
+  opacity: 1;
+  margin-left: 20px;
+}
+
+.findings {
+  margin-left: 22px;
+  height: 40px;
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.find :hover {
+  background-color: #F6F7F8;
+}
+
+.find {
+  width: 350px;
+  max-height: 220px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.find::-webkit-scrollbar {
+  
+  width: 6px;
+  border-radius: 3px;
+  background: #E3E4E6 0% 0% no-repeat padding-box;
+}
+
+.find::-webkit-scrollbar-thumb {
+  width: 6px;
+  border-radius: 3px;
+  background: #072635 0% 0% no-repeat padding-box;
+}
+
+.findings p {
+  color: #072635;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+  margin-left: 16px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+
+.downloader {
+  width: 20px;
+  height: 20px;
+
+}
+
+.chart-container {
+ opacity: 1;
+}
+
+.cht h2 {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #072635;
+  text-transform: capitalize;
+  opacity: 1;
+  width: 133px;
+}
+
+.cht p {
+  position: absolute;
+  width: 120px;
+  height: 19px;
+  left: 352px;
+  top: 98px;
+  text-align: right;
+  color: #072635;
+  opacity: 1;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: normal;
+}
+
+.exp {
+  margin-left: 6px;
+}
+
+.graph {
+  position: absolute;
+  top: 150px;
+  height: 237px;
+  width: 417px;
+}
